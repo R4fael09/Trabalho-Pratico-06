@@ -23,7 +23,7 @@ int main(){
 	
 	system("cls");
 	
-	printf("Quantas peÁas pretas? ");
+	printf("Quantas pe√ßas pretas? ");
 	scanf("%d", &P);
 	
 	system("cls");
@@ -38,7 +38,7 @@ int main(){
 		system("cls");
 		
 		while(lP < 1 || cP < 1 || lP > l || cP > c){
-			printf("O n˙mero digitado n„o È v·lido! Por favor, tente novamente!\n");
+			printf("O n√∫mero digitado n√£o √© v√°lido! tente novamente!\n");
 			
 			printf("Qual a linha? ");
 			scanf("%d", &lP);
@@ -50,7 +50,7 @@ int main(){
 		}
 		
 		while(PeB[lP - 1][cP - 1] != ' '){
-			printf("Est· casa j· est· ocupada! Por favor, tente novamente!\n");
+			printf("Est√° casa j√° est√° ocupada! tente novamente!\n");
 			
 			printf("Qual a linha? ");
 			scanf("%d", &lP);
@@ -65,6 +65,8 @@ int main(){
 	}
 	
 	contB = 0;
+
+	// verificar as linhas
 	
 	for(i = 0; i < l; i++){
 		for(j = 0; j < c; j++){
